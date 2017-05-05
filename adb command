@@ -1,4 +1,12 @@
 电脑与手机直接的文件pull（拉） push（推）
 pull: adb pull system/xbin/sqlite3 E:\yrx
-push: ① adb root ② adb remount ③ adb push E:\yrx\sqlite3 /mnt/tests
+
+push: 1. adb root 
+      2. adb remount 
+      3. adb push E:\yrx\sqlite3 /mnt/tests
+
 delete file: adb shell rm /mnt/tests/sqlite3
+
+new file: 1.cd mnt/
+          2.mkdir tests
+
