@@ -11,5 +11,8 @@
   在Activity初始化时 getSupportActionBar().hide();
   
   
+  3.根据需求改变，可以参考网站
+  http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/1118/2006.html
+  
     
     
