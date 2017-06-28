@@ -1,2 +1,2 @@
 # hzyNote
-a note from drcom works.
+a note from works.
