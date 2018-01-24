@@ -10,3 +10,15 @@ delete file: adb shell rm /mnt/tests/sqlite3
 new file: 1.cd mnt/
           2.mkdir tests
 
+反编译：
+//start debug
+adb shell am start -D -n com.phone580.cn.FBSMarket/com.phone580.FBSMarket.ui.SplashActivity
+
+//find activity class path
+adb shell dumpsys activity | findstr mFocusedActivity
+
+//find app thread
+adb shell ps | findstr com.phone580.cn.FBSMarket
+
+//connect as
+adb forward tcp:8700 jdwp:11814
