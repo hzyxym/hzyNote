@@ -22,3 +22,7 @@ adb shell ps | findstr com.phone580.cn.FBSMarket
 
 //connect as
 adb forward tcp:8700 jdwp:11814
+
+
+查看公钥信息：
+keytool -list -keystore E:\lxkj_key.key -alias lxkj_key -rfc
