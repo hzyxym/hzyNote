@@ -19,3 +19,11 @@
   
     4.查看gralle错误信息
 gradlewcompileDebug --stacktrace -info
+
+
+原文：https://blog.csdn.net/mp624183768/article/details/56667764 
+ldpi      320*240   1dp=0.75px 
+mdpi    480*320   1dp=1.0px 
+hdpi     800*480   1dp=1.5px 
+xhdpi   1280*720   1dp=2.0px 
+xxhdpi 1920*1080   1dp=3px 
