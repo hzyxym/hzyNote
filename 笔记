@@ -27,3 +27,6 @@ mdpi    480*320   1dp=1.0px 
 hdpi     800*480   1dp=1.5px 
 xhdpi   1280*720   1dp=2.0px 
 xxhdpi 1920*1080   1dp=3px 
+
+
+view还没显示在屏幕的时候，fragmentManagement.add(fragment,R.id.view),是会找不到view的
