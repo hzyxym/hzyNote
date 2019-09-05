@@ -1,0 +1,8 @@
+1.正则使用
+    val source = "245249" //原文本
+    val pattern = "^[1-9][0-9]{4,10}$" //正则式
+    //使用kotlin方法打印出匹配出的内容
+    Regex(pattern).findAll(source).toList().flatMap(MatchResult::groupValues).forEach(::println)
+    println(Regex(pattern).matches(source))
+    println(Regex(pattern).find(source,0)?.value)
+    println(Regex(pattern).replaceFirst(source,"111111111111"))
