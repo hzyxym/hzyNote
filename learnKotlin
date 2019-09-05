@@ -6,3 +6,30 @@
     println(Regex(pattern).matches(source))
     println(Regex(pattern).find(source,0)?.value)
     println(Regex(pattern).replaceFirst(source,"111111111111"))
+
+2.forEach continue
+    val nums = listOf(1,2,3,4,5,6)
+    nums.forEach continuing@{
+        if(it == 3) return@continuing
+        println("$it")
+    }
+
+    for (i in nums.indices){
+        if(i == 3) continue
+        println("$i")
+    }
+
+    nums.forEach {
+        if (it == 3) return@forEach
+        print(it)
+    }
+    
+3.forEach break
+    val nums = listOf(1,2,3,4,5,6)
+    run loop@{
+        nums.forEach {
+            if (it ==3) return@loop
+            print(it)
+        }
+    }
+
