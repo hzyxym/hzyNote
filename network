@@ -1,0 +1,5 @@
+TCP的TIME WAIT快速回收与重用：
+https://blog.csdn.net/qq_43679771/article/details/86418379?tdsourcetag=s_pctim_aiomsg
+
+网络优化之net.ipv4.tcp_tw_recycle参数：
+https://blog.csdn.net/chengm8/article/details/51668992
