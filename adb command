@@ -9,6 +9,9 @@ delete file: adb shell rm /mnt/tests/sqlite3
 
 new file: 1.cd mnt/
           2.mkdir tests
+          
+//导出anr日志         
+adb pull /data/anr/traces.txt E:\Desktop\anr
 
 反编译：
 //start debug
