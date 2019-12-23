@@ -40,3 +40,14 @@ keytool -list -keystore E:\lxkj_key.key -alias lxkj_key -rfc
 4.adb start-server
   * daemon not running; starting now at tcp:5037
   * daemon started successfully
+  
+  
+  常见的命令使用介绍
+1.dumpsys activity top
+拿到一个新的app，我们经常定位当前的焦点activoty的名字。
+这个命令就可以显示，而且还可以显示包含的fragment‘的信息、
+
+2.dumpsys activity | grep run
+过滤目前的所有的activity栈信息。
+
+3.dumpsys activity -p 包名
