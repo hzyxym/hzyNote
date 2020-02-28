@@ -44,6 +44,7 @@ keytool -list -keystore E:\lxkj_key.key -alias lxkj_key -rfc
   
   常见的命令使用介绍
 1.dumpsys activity top
+2.adb shell dumpsys activity com.phone580.cn.FBSMarket | findstr "Fragment"
 拿到一个新的app，我们经常定位当前的焦点activoty的名字。
 这个命令就可以显示，而且还可以显示包含的fragment‘的信息、
 
