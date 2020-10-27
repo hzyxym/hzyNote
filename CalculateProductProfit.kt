@@ -8,7 +8,7 @@ fun main() {
     val discount = 9.5
 //    val coupon = 7
     println("全场: ${discount}折")
-    val discountDesc = if (discount < 10) "(${discount}折)" else "(无则扣)"
+    val discountDesc = if (discount < 10) "(${discount}折)" else "(无折扣)"
     val stringBuffer = StringBuffer()
     stringBuffer.append("利润汇总$discountDesc：")
     calculateProfit(1, 27.6, 5, discount, stringBuffer = stringBuffer)
